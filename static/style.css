@@ -75,7 +75,7 @@
     align-items: center;
     color: #fff;
     font-size: 50px;
-    background: center/cover no-repeat url("../static/bg2dan.jpg.jpg");
+    background: center/cover no-repeat url("/bg2dan.jpg.jpg");
     height: 300px;
     font-family: 'Croissant One', cursive;
 }
