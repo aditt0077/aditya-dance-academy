@@ -1,0 +1,80 @@
+
+.white{
+    text-align: center;
+    color: #fff;
+}
+
+.bolly img {
+    margin-top: 21px;
+    border-radius: 36px;
+    padding: 27px;
+    width: 98%;
+}
+
+.belly img {
+    margin: 19px auto;
+    border-radius: 36px;
+    /* border: 2px solid green; */
+    margin-left: 80px;
+    width: 65%;
+}
+
+.hip-hop img {
+    border-radius: 36px;
+    margin: 45px 82px;
+    width: 56%;
+}
+
+.service-card-block {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    /* border: 2px solid blue; */
+}
+
+.service-cards{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.service-cards:hover{
+    transition: all .31s ease;
+    transform: scale(1.1);
+    border: 2px solid blue;
+}
+
+.ser-card-we{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.para-element{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.service-section{
+    padding: 55px;
+    background-color: black;
+    /* border: 2px solid green; */
+}
+
+.para-element{
+    font-size: 18px;
+    font-weight: 500;
+    color: #A5A5A5;
+    padding: 0 40px;
+    margin-top: 31px;
+}

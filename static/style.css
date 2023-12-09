@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Croissant+One&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root {
+    --woocommerce: #7F54B3;
+    --wc-green: #7ad03a;
+    --wc-red: #a00;
+    --wc-orange: #ffba00;
+    --wc-blue: #2ea2cc;
+    --wc-primary: #7F54B3;
+    --wc-primary-text: white;
+    --wc-secondary: #e9e6ed;
+    --wc-secondary-text: #515151;
+    --wc-highlight: #b3af54;
+    --wc-highligh-text: white;
+    --wc-content-bg: #fff;
+    --wc-subtext: #767676;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(5, 3, 39);
+    padding: 15px 9px;
+    font-family: 'Croissant One', cursive;
+    z-index: 1;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#logo img {
+    height: 42px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+#navbar li a:hover {
+    color: rgb(248, 29, 131);
+    text-decoration: underline;
+}
+
+#introSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 130px;
+    align-items: center;
+    color: #fff;
+    font-size: 50px;
+    background: center/cover no-repeat url("/static/bg2dan.jpg.jpg");
+    height: 300px;
+    font-family: 'Croissant One', cursive;
+}
+
+#introSection div.small {
+    font-size: 37px;
+    color: black;
+}
+
+
+#MissionSection {
+    height: 40vh;
+    background-color: #000000; 
+}
+
+#MissionSection h2 {
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Croissant One', cursive;
+
+}
+
+
+
+
+.card {
+    display: inline-block;
+    border-radius: 20px;
+    border: 2px solid blue;
+    width: 28%;
+    height: 280px;
+    margin: 30px 43px;
+    /* background-color: #c6add1; */
+}
+
+#live-header{
+    color: #ffcc00; 
+}
+
+#live{
+    
+    font-size: 15px;
+    color: #b0b0b0;
+}
+
+
+#enroll{
+    font-family: 'Croissant One', cursive;
+    font-weight: 600;
+    font-size: 11px;
+    border-radius: 35px;
+    border: 3px solid #140064;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 13px;
+    float: right;
+    margin-right: 27px;
+}
+
+#enroll:hover{
+    color: rgb(248, 29, 131);
+    text-decoration: underline;
+
+}
+
+.card:hover{
+    transition: all .31s ease;
+    transform: scale(1.05);
+    border: 2px solid #62ff00;
+}
+
+
+
+.card h3 {
+    color: #fff;
+    text-align: center;
+    margin: 12px 0;
+
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 154px;
+
+}
+
+.card-img img {
+    height: inherit;
+}
+
+.card-content {
+    padding: 0 10px;
+}
+
+.card-content p {
+    color: #A5A5A5;
+    font-size: 20px;
+}
+
+#sponsorsSection {
+    height: 245px;
+    background-color: #918f97;
+}
+
+
+#sponsorsSection h2 {
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Croissant One', cursive;
+
+}
+
+#sponsors {
+    height: 199px;
+    max-width: 1000px;
+    margin: 16px 407px;
+
+}
+
+.spImage {
+    height: 70%;
+    margin: 20px;
+}
+
+.footer-info {
+    padding: 55px;
+    background-color: black;
+}
+
+.mid-footer {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container {
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+}
+
+.widget-title {
+    margin: 0 0 2rem;
+}
+
+.footer-subheading {
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-info #widget-footer {
+    position: relative;
+    padding-bottom: 20px;
+    color: #918f97;
+}
+
+
+#widget-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.footer-col-01-content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #A5A5A5;
+    padding: 0;
+    margin-top: 31px;
+}
+
+.col-04-para p img {
+    filter: invert(1);
+
+}
+
+
+
+.menu li a:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #FCCC36;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    line-height: 1.5;
+    margin-top: 13px;
+    text-align: inherit;
+}
+
+ .menu li a {
+    padding-left: 15px;
+    color: #A5A5A5;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'poppins', sans-serif;
+    position: relative;
+    text-decoration: none ;
+    transition: all 0.5s;
+    margin-top: 5px;
+} 
+
+.menu li a:hover {
+    color: rgb(248, 29, 131);
+    text-decoration: underline;
+    transition: all .31s ease;
+    transform: scale(1.1);
+}
+
+
+.social-block{
+    margin-top: 10px;
+}
+
+
+.social-icon {
+    display: flex;
+    margin: 0;
+    gap: 15px;
+    list-style: none;
+    justify-content: start;
+}
+
+.social-icon li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.5s;
+}
+
+
+.fb-icon {
+    background-repeat: no-repeat;
+    filter: invert(1);
+    background-image: url(../static/img/facebook.png);
+}
+
+.insta-icon {
+    background-repeat: no-repeat;
+    filter: invert(1);
+    background-image: url(../static/img/instagram3.png);
+}
+
+.twitter-icon {
+    background-repeat: no-repeat;
+    /* filter: invert(1); */
+    background-image: url(../static/img/twitter.png);
+}
+
+.yt-icon {
+    background-repeat: no-repeat;
+    filter: invert(1);
+    background-image: url(../static/img/youtube.png);
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+    height: 60px;
+    background-color: black;
+
+}

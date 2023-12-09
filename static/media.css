@@ -1,0 +1,228 @@
+
+/*------------------------------------------------- Media queries--------------------------------------------------------- */
+
+
+/*------------------------------------------------- Services -------------------------------------------------------- */
+
+@media (width>=358px) and (width<=1074px){
+    .service-cards {
+        margin-bottom: 35px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-card-block {
+        grid-template-columns: repeat(1,1fr);
+        max-width: 1600px;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        /* border: 2px solid blue; */
+    }
+}
+
+@media (width>=358px) and (width<=478px){
+  .belly img{
+    margin-left: 50px ;
+
+  }
+  
+}
+
+/*-------------------------------------------------Home and Contact Media queries--------------------------------------------------------- */
+
+@media (width>1075px) and (width<=1730px) {
+    #MissionSection {
+        display: flex;
+        height: 46vh;     
+    }
+
+    .card{
+        width: 30%;
+        margin: 30px 17px;
+    }
+
+    #sponsorsSection {
+        display: flex;
+        height: 245px;
+        background-color: #918f97;
+    }
+
+    #sponsors {
+        height: 199px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+}
+
+
+
+@media (width>=534px) and (width<=1074px) {
+    #MissionSection {
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        /* justify-content: center; */
+        height: 105vh;
+        
+        display: flex;
+    }
+
+    .card {
+        display: inline-block;
+        border-radius: 20px;
+        border: 2px solid blue;
+        width: 50%;
+        height: 240px;
+        margin: 10px 15px;
+    }
+
+    .card-img {
+        height: 111px;
+    }
+
+    #sponsorsSection {
+        display: flex;
+        height: 345px;
+        background-color: #918f97;
+    }
+
+
+
+    #sponsors {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        height: 200px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .spImage {
+        height: 52%;
+        margin: 11px;
+    }
+
+    #widget-footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+
+    .menu {
+        margin: 5px 0;
+    }
+
+    .col-04-para p {
+        margin: 10px 0;
+    }
+
+ 
+
+}
+
+
+@media (width>=320px) and (width<=534px) {
+
+    #navbar {
+        background-color: rgb(5, 3, 39);
+        padding: 15px 0px;
+        font-family: 'Croissant One', cursive;
+    }
+
+    #navbar ul {
+        justify-content: center;
+    }
+
+    #logo {
+        margin-right: 1px;
+    }
+
+    #navbar li {
+        margin: -19px;
+        list-style: none;
+    }
+
+    #introSection {
+        padding-bottom: 0;
+        font-size: 26px;
+    }
+
+    #introSection div.up-heading {
+        font-size: 25px;
+    }
+
+    #introSection div.small {
+        font-size: 17px;
+    }
+
+    #MissionSection {
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        /* justify-content: center; */
+        height: 100vh;
+        display: flex;
+    }
+
+    .card {
+        display: inline-block;
+        border-radius: 20px;
+        border: 2px solid blue;
+        width: 85%;
+        height: 240px;
+        margin: 4px 15px;
+   
+    }
+
+    .card-img {
+        height: 111px;
+    }
+
+    #sponsorsSection {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 245px;
+        background-color: #918f97;
+    }
+
+    #sponsors {
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        height: 200px;
+        max-width: 1000px;
+    }
+
+    .spImage {
+        height: 32%;
+        margin: 20px 8px;
+    }
+
+    .col-04-para p {
+        margin: 6px 0;
+    }
+
+    .myInput {
+        width: 65%;
+    }
+
+    .container h1 {
+        margin-bottom: 15px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+
+    #widget-footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    margin-top: 39px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container h1 {
+    margin-bottom: 15px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: 100%;
+}
+
+.myInput {
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.btn {
+    margin-top: 17px;
+    padding: 9px 74px;
+    font-size: 18px;
+    border: 2px solid #000000e6;
+    border-radius: 6px;
+    color: white;
+    background: #030304;
+    cursor: pointer;
+}
+
+@media (width>=360px) and (width<=534px) {
+    .container h1 {
+        font-size: 33px;
+    }
+
+    .myInput {
+        width: 70%;
+    }
+
+    .btn{
+        padding: 9px 53px;
+    }
+
+}
+
