@@ -334,25 +334,25 @@
 .fb-icon {
     background-repeat: no-repeat;
     filter: invert(1);
-    background-image: url(./img/facebook.png);
+    background-image: url(../static/img/facebook.png);
 }
 
 .insta-icon {
     background-repeat: no-repeat;
     filter: invert(1);
-    background-image: url(./img/instagram3.png);
+    background-image: url(../static/img/instagram3.png);
 }
 
 .twitter-icon {
     background-repeat: no-repeat;
     /* filter: invert(1); */
-    background-image: url(./img/twitter.png);
+    background-image: url(../static/img/twitter.png);
 }
 
 .yt-icon {
     background-repeat: no-repeat;
     filter: invert(1);
-    background-image: url(./img/youtube.png);
+    background-image: url(../static/img/youtube.png);
 }
 
 #footer {
