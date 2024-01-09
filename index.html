@@ -204,7 +204,11 @@
         Copyright © 2023 AdityaDanceAcademy.com | All rights reserved!
     </footer>
 
-    <script src="../static/index.js"></script>
+    <script>
+        if(window.location.hash == "#services"){
+            window.location.href = "services.html" ;
+        }
+    </script>
 </body>
 
 </html>
